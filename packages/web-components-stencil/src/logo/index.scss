@@ -1,0 +1,38 @@
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Community for NL Design System
+ */
+
+.rhc-logo {
+  align-items: center;
+  color: var(--rhc-logo-color);
+  display: flex;
+  flex-direction: row;
+  font-family: var(--rhc-logo-font-family, serif);
+  font-size: var(--rhc-logo-font-size, 1em);
+  gap: var(--rhc-space-sm, 10px);
+  line-height: var(--rhc-line-height-sm, 1);
+}
+
+.rhc-logo__emblem {
+  align-self: flex-start;
+  height: calc(var(--rhc-logo-emblem-width, 51px) * 2);
+  width: var(--rhc-logo-emblem-width, 51px);
+}
+
+.rhc-logo__wordmark {
+  align-self: flex-start;
+  margin-block-start: 48px;
+}
+
+.rhc-logo__subtitle {
+  font-style: italic;
+}
+
+.rhc-logo__title,
+.rhc-logo__subtitle {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  max-width: 200px;
+  white-space: pre-line;
+}

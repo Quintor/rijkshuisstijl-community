@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rijkshuisstijl Community Web Componenten</title>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@utrecht/design-tokens/dist/index.css" />
+    <link rel="stylesheet" type="text/css" href="packages/design-tokens/dist/index.css" />
+    <link rel="stylesheet" type="text/css" href="proprietary/font/src/index.css" />
+    <script
+      src="https://unpkg.com/@utrecht/web-component-library-stencil/dist/utrecht/utrecht.esm.js"
+      type="module"
+    ></script>
+    <script src="packages/web-components-stencil/dist/rhc/rhc.esm.js" type="module"></script>
+  </head>
+  <body>
+    <h2>Logo</h2>
+    <rhc-logo>Title<span slot="subtitle">logo</span></rhc-logo>
+    <p>Small logo (44px)</p>
+    <rhc-logo style="--rhc-logo-emblem-width: 44px">Title<span slot="subtitle">logo</span></rhc-logo>
+    <p>Large logo (48px)</p>
+    <rhc-logo style="--rhc-logo-emblem-width: 48px">Title<span slot="subtitle">logo</span></rhc-logo>
+    <div style="background-color: black; color: white">
+      <p>Dark mode</p>
+      <rhc-logo style="--rhc-logo-emblem-width: 48px">Title<span slot="subtitle">logo</span></rhc-logo>
+    </div>
+
+    <template id="examples">
+      <utrecht-heading-1>Lorem ipsum</utrecht-heading-1>
+      <utrecht-heading-2>Lorem ipsum</utrecht-heading-2>
+      <utrecht-heading-3>Lorem ipsum</utrecht-heading-3>
+      <utrecht-heading-4>Lorem ipsum</utrecht-heading-4>
+      <utrecht-heading-5>Lorem ipsum</utrecht-heading-5>
+      <utrecht-heading-6>Lorem ipsum</utrecht-heading-6>
+      <utrecht-paragraph>Lorem ipsum</utrecht-paragraph>
+      <utrecht-paragraph lead="true">Lorem ipsum</utrecht-paragraph>
+      <utrecht-paragraph small="true">Lorem ipsum</utrecht-paragraph>
+      <utrecht-paragraph
+        >Icon:
+        <utrecht-icon
+          ><svg viewBox="0 0 32 32">
+            <rect fill="currentColor" x="0" y="0" width="32" height="32"></rect></svg></utrecht-icon
+      ></utrecht-paragraph>
+      <utrecht-alert type="info" aria-live="assertive">
+        <utrecht-paragraph>U heeft nog 4 minuten om in te loggen. Daarna verloopt uw sessie.</utrecht-paragraph>
+      </utrecht-alert>
+      <utrecht-alert type="warning" aria-live="polite">
+        <utrecht-paragraph
+          >U heeft een brief met activeringscode ontvangen. Log in met uw gebruikersnaam en
+          wachtwoord.</utrecht-paragraph
+        >
+        <utrecht-paragraph
+          >Heeft u geen brief met activeringscode ontvangen? En woont u in Nederland? Dan kunt u eenmalig een nieuwe
+          brief met activeringscode aanvragen nadat u bent ingelogd.</utrecht-paragraph
+        >
+        <utrecht-paragraph
+          ><strong>Let op:</strong> heeft u uw DigiD via de DigiD app aangevraagd? Dan kunt u enkel uw DigiD via de
+          DigiD app activeren.</utrecht-paragraph
+        >
+      </utrecht-alert>
+    </template>
+    <script defer type="module">
+      document.getElementById("examples");
+      const themes = [
+        { name: "RVO", className: "rvo-theme" },
+        { name: "Belastingdienst", className: "belastingdienst-theme" },
+        { name: "gemeente Utrecht", className: "utrecht-theme" },
+      ];
+      themes.forEach((theme) => {
+        const section = document.createElement("section");
+        const heading = document.createElement("h2");
+        const div = document.createElement("div");
+        div.className = theme.className;
+        heading.textContent = theme.name;
+        section.appendChild(heading);
+        section.appendChild(div);
+        div.appendChild(document.getElementById("examples").content.cloneNode(true));
+        document.body.appendChild(section);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "OverheidSerif";
+  font-style: normal;
+  font-weight: 700;
+  src: url("RO-SerifWeb-Bold.woff") format("opentype"), url("RO-SerifWeb-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OverheidSerif";
+  font-style: italic;
+  font-weight: 400;
+  src: url("RO-SerifWeb-Italic.woff") format("opentype"), url("RO-SerifWeb-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OverheidSerif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("RO-SerifWeb-Regular.woff") format("opentype"), url("RO-SerifWeb-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OverheidSans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("RO-SansWebText-Regular.woff") format("opentype"), url("RO-SansWebText-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OverheidSans";
+  font-weight: 700;
+  src: url("RO-SansWebText-Bold.woff") format("opentype"), url("RO-SansWebText-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OverheidSans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("RO-SansWebText-Italic.woff") format("opentype"), url("RO-SansWebText-Italic.ttf") format("truetype");
+}
+
+/* Alias */
+@font-face {
+  font-family: "ROSerif";
+  font-style: normal;
+  font-weight: 700;
+  src: url("RO-SerifWeb-Bold.woff") format("opentype"), url("RO-SerifWeb-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ROSerif";
+  font-style: italic;
+  font-weight: 400;
+  src: url("RO-SerifWeb-Italic.woff") format("opentype"), url("RO-SerifWeb-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ROSerif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("RO-SerifWeb-Regular.woff") format("opentype"), url("RO-SerifWeb-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ROSans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("RO-SansWebText-Regular.woff") format("opentype"), url("RO-SansWebText-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ROSans";
+  font-weight: 700;
+  src: url("RO-SansWebText-Bold.woff") format("opentype"), url("RO-SansWebText-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ROSans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("RO-SansWebText-Italic.woff") format("opentype"), url("RO-SansWebText-Italic.ttf") format("truetype");
+}
