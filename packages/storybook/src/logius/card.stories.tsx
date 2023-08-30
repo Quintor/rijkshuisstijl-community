@@ -9,7 +9,8 @@ import readme from './card.md?raw';
 
 const CardStory = () => (
   <div>
-    <h2>Hello world card</h2>
+    <h2>Logius Card Story</h2>
+    <logius-card></logius-card>
   </div>
 );
 
