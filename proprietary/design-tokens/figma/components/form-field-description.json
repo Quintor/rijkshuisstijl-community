@@ -1,0 +1,22 @@
+{
+  "utrecht": {
+    "form-field-description": {
+      "color": {
+        "value": "{ro.color.foreground.link}",
+        "type": "color"
+      },
+      "font-family": {
+        "value": "{ro.font-family.primary}",
+        "type": "fontFamilies"
+      },
+      "font-size": {
+        "value": "{ro.font-size.paragraph.default}",
+        "type": "fontSizes"
+      },
+      "line-height": {
+        "value": "{ro.line-height.md}",
+        "type": "lineHeights"
+      }
+    }
+  }
+}

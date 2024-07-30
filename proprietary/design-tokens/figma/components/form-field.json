@@ -1,0 +1,20 @@
+{
+  "utrecht": {
+    "form-field": {
+      "invalid": {
+        "border-inline-start-color": {
+          "value": "{ro.color.feedback.error.default}",
+          "type": "color"
+        },
+        "border-inline-start-width": {
+          "value": "0",
+          "type": "borderWidth"
+        },
+        "padding-inline-start": {
+          "value": "0",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "ro": {
+    "color": {
+      "foreground": {
+        "default": {
+          "parent": "mode/light",
+          "value": "{ro.color.zwart}",
+          "type": "color",
+          "description": "Standaard kleur voor teksten en iconen. Gebruik deze voor body content, titels en labels."
+        },
+        "lint": {
+          "value": "{ro.color.lintblauw.500}",
+          "type": "color"
+        },
+        "subdued": {
+          "parent": "mode/light",
+          "value": "{ro.color.grijs.700}",
+          "type": "color",
+          "description": "Gebruik voor content die extra context biedt, maar niet essentieel is om de interface te begrijpen."
+        },
+        "onEmphasis": {
+          "parent": "mode/light",
+          "value": "{ro.color.wit}",
+          "type": "color",
+          "description": "Tekst en iconen die op een sterke achtergrond staan. Zoals het label in de primaire button of links in de footer."
+        },
+        "link": {
+          "value": "{ro.color.donkerblauw.500}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "parent": "mode/light",
+          "value": "{ro.color.grijs.500}",
+          "type": "color",
+          "description": "Border kleur"
+        },
+        "subdued": {
+          "parent": "mode/light",
+          "value": "{ro.color.grijs.400}",
+          "type": "color",
+          "description": "Subtiele border"
+        },
+        "strong": {
+          "parent": "mode/light",
+          "value": "{ro.color.foreground.default}",
+          "type": "color"
+        }
+      },
+      "canvas": {
+        "parent": "mode/light",
+        "value": "{ro.color.wit}",
+        "type": "color",
+        "description": "Gebruik deze kleur voor de achtergrond van de website, hierbovenop komen de background kleuren."
+      },
+      "feedback": {
+        "success": {
+          "default": {
+            "parent": "mode/light",
+            "value": "{ro.color.groen.500}",
+            "type": "color",
+            "description": "Gebruik deze kleur om een positieve boodschap te benadrukken."
+          },
+          "subdued": {
+            "parent": "mode/light",
+            "value": "{ro.color.groen.50}",
+            "type": "color",
+            "description": "Gebruik deze kleur om een positieve boodschap te highlighten."
+          }
+        },
+        "info": {
+          "default": {
+            "parent": "mode/light",
+            "value": "{ro.color.hemelblauw.500}",
+            "type": "color",
+            "description": "Gebruik deze kleur om een informatieve boodschap te benadrukken."
+          },
+          "subdued": {
+            "parent": "mode/light",
+            "value": "{ro.color.hemelblauw.50}",
+            "type": "color",
+            "description": "Gebruik deze kleur om een informatieve boodschap te highlighten."
+          }
+        },
+        "error": {
+          "default": {
+            "parent": "mode/light",
+            "value": "{ro.color.rood.500}",
+            "type": "color",
+            "description": "Gebruik deze kleur om een negatieve boodschap te benadrukken."
+          },
+          "subdued": {
+            "parent": "mode/light",
+            "value": "{ro.color.rood.50}",
+            "type": "color",
+            "description": "Gebruik deze kleur om een negatieve boodschap te highlighten."
+          }
+        },
+        "warning": {
+          "default": {
+            "parent": "mode/light",
+            "value": "{ro.color.donkergeel.500}",
+            "type": "color",
+            "description": "Gebruik deze kleur om een waarschuwing te benadrukken."
+          },
+          "subdued": {
+            "parent": "mode/light",
+            "value": "{ro.color.donkergeel.50}",
+            "type": "color",
+            "description": "Gebruik deze kleur om een waarschuwing te highlighten."
+          }
+        }
+      },
+      "accent": {
+        "500": {
+          "value": "{ro.color.lichtblauw.500}",
+          "type": "color"
+        }
+      },
+      "primary": {
+        "50": {
+          "value": "{ro.color.lintblauw.50}",
+          "type": "color"
+        },
+        "100": {
+          "value": "{ro.color.lintblauw.100}",
+          "type": "color"
+        },
+        "200": {
+          "value": "{ro.color.lintblauw.200}",
+          "type": "color"
+        },
+        "300": {
+          "value": "{ro.color.lintblauw.300}",
+          "type": "color"
+        },
+        "400": {
+          "value": "{ro.color.lintblauw.400}",
+          "type": "color"
+        },
+        "500": {
+          "value": "{ro.color.lintblauw.500}",
+          "type": "color"
+        },
+        "hover": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.3",
+                "space": "lch"
+              }
+            }
+          },
+          "value": "{ro.color.primary.500}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

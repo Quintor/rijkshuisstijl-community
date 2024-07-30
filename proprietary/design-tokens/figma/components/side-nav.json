@@ -1,0 +1,94 @@
+{
+  "denhaag": {
+    "sidenav": {
+      "link": {
+        "line-height": {
+          "value": "{utrecht.document.line-height}",
+          "type": "lineHeights"
+        },
+        "icon": {
+          "size": {
+            "value": "{ro.icon.functional.size}",
+            "type": "sizing"
+          },
+          "margin-inline": {
+            "value": "{voorbeeld.space.text.mouse}",
+            "type": "spacing"
+          }
+        },
+        "font-size": {
+          "value": "{utrecht.document.font-size}",
+          "type": "fontSizes"
+        },
+        "font-family": {
+          "value": "{utrecht.document.font-family}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{utrecht.document.font-weight}",
+          "type": "fontWeights"
+        },
+        "current": {
+          "font-weight": {
+            "value": "{utrecht.document.strong.font-weight}",
+            "type": "fontWeights"
+          },
+          "color": {
+            "value": "{utrecht.document.color}",
+            "type": "color"
+          }
+        },
+        "color": {
+          "value": "{utrecht.interaction.color}",
+          "type": "color"
+        },
+        "active": {
+          "color": {
+            "value": "{utrecht.interaction.active.color}",
+            "type": "color"
+          },
+          "text-decoration": {
+            "value": "underline",
+            "type": "textDecoration"
+          }
+        },
+        "focus": {
+          "background-color": {
+            "value": "{ro.focus.background-color}",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ro.focus.color}",
+            "type": "color"
+          },
+          "text-decoration": {
+            "value": "None",
+            "type": "textDecoration"
+          }
+        },
+        "hover": {
+          "color": {
+            "value": "{utrecht.interaction.hover.color}",
+            "type": "color"
+          },
+          "text-decoration": {
+            "value": "underline",
+            "type": "textDecoration"
+          }
+        },
+        "padding-block-start": {
+          "value": "{voorbeeld.space.block.snail}",
+          "type": "spacing"
+        },
+        "padding-block-end": {
+          "value": "{voorbeeld.space.block.snail}",
+          "type": "spacing"
+        },
+        "text-decoration": {
+          "value": "None",
+          "type": "textDecoration"
+        }
+      }
+    }
+  }
+}

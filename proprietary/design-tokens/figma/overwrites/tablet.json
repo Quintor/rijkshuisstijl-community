@@ -1,0 +1,36 @@
+{
+  "ro": {
+    "heading": {
+      "level-1": {
+        "value": "{ro.font-size.xl.tablet}",
+        "type": "fontSizes"
+      },
+      "level-2": {
+        "value": "{ro.font-size.lg.tablet}",
+        "type": "fontSizes"
+      },
+      "level-3": {
+        "value": "{ro.font-size.md.tablet}",
+        "type": "fontSizes"
+      },
+      "level-4": {
+        "value": "{ro.font-size.sm.tablet}",
+        "type": "fontSizes"
+      },
+      "level-5": {
+        "value": "{ro.font-size.xs.tablet}",
+        "type": "fontSizes"
+      }
+    },
+    "paragraph": {
+      "intro": {
+        "value": "{ro.font-size.sm.tablet}",
+        "type": "fontSizes"
+      },
+      "default": {
+        "value": "{ro.font-size.xs.tablet}",
+        "type": "fontSizes"
+      }
+    }
+  }
+}

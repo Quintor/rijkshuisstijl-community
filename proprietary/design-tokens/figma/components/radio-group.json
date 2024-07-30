@@ -1,0 +1,18 @@
+{
+  "todo": {
+    "radio-group": {
+      "padding-block-end": {
+        "value": "{voorbeeld.space.block.beetle}",
+        "type": "spacing"
+      },
+      "padding-block-start": {
+        "value": "{voorbeeld.space.block.beetle}",
+        "type": "spacing"
+      },
+      "row-gap": {
+        "value": "{voorbeeld.space.row.rat}",
+        "type": "spacing"
+      }
+    }
+  }
+}

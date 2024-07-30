@@ -1,0 +1,18 @@
+{
+  "ro": {
+    "border-radius": {
+      "sm": {
+        "value": "2.5px",
+        "type": "borderRadius"
+      },
+      "md": {
+        "value": "5px",
+        "type": "borderRadius"
+      },
+      "keep": {
+        "value": "{ro.size.2-lint}",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

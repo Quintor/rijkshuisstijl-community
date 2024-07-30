@@ -1,0 +1,26 @@
+{
+  "todo": {
+    "form-field-label": {
+      "color": {
+        "value": "{ro.color.foreground.lint}",
+        "type": "color"
+      },
+      "font-family": {
+        "value": "{ro.font-family.primary}",
+        "type": "fontFamilies"
+      },
+      "font-size": {
+        "value": "{ro.font-size.paragraph.default}",
+        "type": "fontSizes"
+      },
+      "font-weight": {
+        "value": "{ro.font-weight.bold}",
+        "type": "fontWeights"
+      },
+      "line-height": {
+        "value": "{ro.line-height.md}",
+        "type": "lineHeights"
+      }
+    }
+  }
+}

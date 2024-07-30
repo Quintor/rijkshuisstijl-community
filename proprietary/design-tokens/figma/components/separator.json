@@ -1,0 +1,22 @@
+{
+  "utrecht": {
+    "separator": {
+      "color": {
+        "value": "{utrecht.line.border-color}",
+        "type": "color"
+      },
+      "block-size": {
+        "value": "{voorbeeld.size.4xs}",
+        "type": "sizing"
+      },
+      "padding-block-end": {
+        "value": "{voorbeeld.space.block.snail}",
+        "type": "spacing"
+      },
+      "padding-block-start": {
+        "value": "{voorbeeld.space.block.snail}",
+        "type": "spacing"
+      }
+    }
+  }
+}

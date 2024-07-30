@@ -1,0 +1,42 @@
+{
+  "ro": {
+    "keep": {
+      "top-left": {
+        "value": {
+          "borderRadiusTopLeft": "{ro.border-radius.keep}",
+          "borderRadiusTopRight": "0",
+          "borderRadiusBottomRight": "0",
+          "borderRadiusBottomLeft": "0"
+        },
+        "type": "composition"
+      },
+      "top-right": {
+        "value": {
+          "borderRadiusTopRight": "{ro.border-radius.keep}",
+          "borderRadiusTopLeft": "0",
+          "borderRadiusBottomRight": "0",
+          "borderRadiusBottomLeft": "0"
+        },
+        "type": "composition"
+      },
+      "bottom-right": {
+        "value": {
+          "borderRadiusTopLeft": "0",
+          "borderRadiusTopRight": "0",
+          "borderRadiusBottomRight": "{ro.border-radius.keep}",
+          "borderRadiusBottomLeft": "0"
+        },
+        "type": "composition"
+      },
+      "bottom-left": {
+        "value": {
+          "borderRadiusTopLeft": "0",
+          "borderRadiusTopRight": "0",
+          "borderRadiusBottomRight": "0",
+          "borderRadiusBottomLeft": "{ro.border-radius.keep}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "utrecht": {
+    "link": {
+      "color": {
+        "value": "{ro.color.foreground.link}",
+        "type": "color"
+      },
+      "text-decoration-color": {
+        "value": "{ro.color.foreground.link}",
+        "type": "color"
+      },
+      "active": {
+        "color": {
+          "value": "{ro.color.paars.500}",
+          "type": "color"
+        },
+        "text-decoration": {
+          "value": "None",
+          "type": "textDecoration"
+        }
+      },
+      "focus": {
+        "background-color": {
+          "value": "{ro.color.none}",
+          "type": "color"
+        },
+        "color": {
+          "value": "{ro.color.foreground.link}",
+          "type": "color"
+        },
+        "text-decoration": {
+          "value": "None",
+          "type": "textDecoration"
+        },
+        "text-decoration-thickness": {
+          "value": "auto",
+          "type": "other"
+        }
+      },
+      "hover": {
+        "color": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.3",
+                "space": "srgb"
+              }
+            }
+          },
+          "value": "{ro.color.foreground.link}",
+          "type": "color"
+        },
+        "text-decoration": {
+          "value": "None",
+          "type": "textDecoration"
+        },
+        "text-decoration-thickness": {
+          "value": "auto",
+          "type": "other"
+        }
+      },
+      "visited": {
+        "color": {
+          "value": "{ro.color.paars.500}",
+          "type": "color"
+        }
+      },
+      "text-decoration": {
+        "value": "underline",
+        "type": "textDecoration"
+      },
+      "icon": {
+        "size": {
+          "value": "{ro.size.icon.functional}",
+          "type": "sizing"
+        }
+      },
+      "column-gap": {
+        "value": "{ro.space.50}",
+        "type": "spacing"
+      },
+      "text-decoration-thickness": {
+        "value": "auto",
+        "type": "other"
+      },
+      "text-underline-offset": {
+        "value": "auto",
+        "type": "other"
+      },
+      "font-family": {
+        "value": "{ro.font-family.primary}",
+        "type": "fontFamilies"
+      },
+      "font-weight": {
+        "value": "{ro.font-weight.regular}",
+        "type": "fontWeights"
+      },
+      "font-size": {
+        "value": "{ro.font-size.paragraph.default}",
+        "type": "fontSizes"
+      },
+      "line-height": {
+        "value": "{ro.line-height.paragraph}",
+        "type": "lineHeights"
+      }
+    }
+  }
+}
